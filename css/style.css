@@ -25,7 +25,7 @@ h4 {
     text-align: center;
 }
 
-h4 {}
+
 
 p {
     font-size: 18px;
@@ -40,7 +40,7 @@ ul li {
 }
 
 span {
-    color: aqua;
+    color: #0A9696;
 }
 
 .fixed-whatsapp {
@@ -57,8 +57,9 @@ span {
 
 
 .btn {
-    background: aqua;
+    background: #0A9696;
     font-size: 18px;
+    color: #fff;
 }
 
 #hero {
@@ -69,6 +70,9 @@ span {
     justify-content: center;
     margin-top: 50px;
 }
+/* #main h2{
+    color:white ;
+} */
 
 #hero iframe {
     margin-top: 50px;
@@ -90,10 +94,12 @@ span {
 /* HERO SECTION END */
 
 #main {
-    background-color: rgba(0, 255, 255, 0.226);
+    background-color: #0a96966d;
     height: 100%;
     width: 100%;
     margin-top: 50px;
+    color:white;
+    
 }
 
 
@@ -123,7 +129,7 @@ span {
 /* BANNER SECTION END */
 
 #mainpage {
-    background: rgba(105, 225, 225, 0.295);
+    background: #0a96966d;
 }
 
 .swiper {
@@ -196,7 +202,7 @@ margin-top: 18px; */
 MAIN PAGE END */
 
 #main-page3 {
-    background: rgba(0, 255, 255, 0.167);
+    background: #0a96966d;
     height: 100%;
 }
 

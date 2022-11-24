@@ -44,7 +44,7 @@ body{
 
 #about .aboutcompany{
 
-    color:#3ee1e1;
+    color:#0A9696;
 }
 /* why choose us */
 #chooseus{
@@ -88,7 +88,7 @@ body{
     padding-right: 20px;
 }
 .testimonial-title-client{
-    color:#35ebeb;
+    color:#0A9696;
 }
 #testimonials .clientsopinion p{
     font-size: 18px;
@@ -127,7 +127,7 @@ section{
 }
 /* footer */
 .footer{
-    background-color: #54a9a9 !important;
+    background-color: #339191 !important;
 }
 .footer .icons{
     font-size: 23px ;
