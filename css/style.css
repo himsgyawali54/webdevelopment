@@ -94,7 +94,9 @@ span {
 /* HERO SECTION END */
 
 #main {
-    background-color: #0a96966d;
+
+    background-color: #0a969668;
+
     height: 100%;
     width: 100%;
     margin-top: 50px;
@@ -129,7 +131,10 @@ span {
 /* BANNER SECTION END */
 
 #mainpage {
-    background: #0a96966d;
+
+    background: #0a969668;
+
+
 }
 
 .swiper {
@@ -202,7 +207,8 @@ margin-top: 18px; */
 MAIN PAGE END */
 
 #main-page3 {
-    background: #0a96966d;
+
+    background: #0a969668;
     height: 100%;
 }
 
