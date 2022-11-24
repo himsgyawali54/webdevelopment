@@ -19,12 +19,16 @@ body{
 .navbar a{
     color:white !important;
 }
+.nav-item .dropdown-menu{
+    background-color:#0A9696 !important;
+
+}
 .navbar-expand-lg .dropdown-menu :hover {
     color:black !important;
     
 }
 .nav-item .dropdown-menu{
-    background-color: #0A9696;
+    background-color: #0a9696bb;
 } 
 .dropdown:hover .dropdown-menu{
     display: block;
@@ -33,7 +37,7 @@ body{
     margin-top: 0;
 }
 .footer{
-       background-color: #0A9696 !important;
+  background-color: #0a9696c7 !important;
 }
 .footer .icons{
     font-size: 23px ;

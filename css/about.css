@@ -19,6 +19,7 @@ body{
 .navbar a{
     color:white !important;
 }
+
 .nav-item .dropdown-menu{
     background-color: #0A9696;
 } 
@@ -127,8 +128,24 @@ section{
 }
 /* footer */
 .footer{
+
     background-color: #0A9696 !important;
+
 }
 .footer .icons{
     font-size: 23px ;
+    color: white ;
+}
+.footer li a{
+    color:white ;
+}
+.footer h4{
+    color:white;
+}
+.footer .copyright{
+    background-color: rgba(197, 192, 192, 0.2);
+    color:white ;
+}
+.footer .copyright a{
+    color:white ;
 }
