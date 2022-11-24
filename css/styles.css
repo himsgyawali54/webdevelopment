@@ -7,7 +7,7 @@ body{
 /* navbar start*/
 .navbar-expand-lg{
     font-weight: bold;
-     background-color: #6de6e6 !important;
+     background-color: #0A9696 !important;
 }
 .navbar .navbar-brand{
     margin-left: 70px;
@@ -16,8 +16,11 @@ body{
 .navbar-collapse .ms-auto{
     margin-right: 70px !important;
 }
-.navbar-nav a{
-    color:black !important;
+.navbar a{
+    color:white !important;
+}
+.nav-item .dropdown-menu{
+    background-color:#0A9696 !important;
 }
 .navbar-expand-lg .dropdown-menu :hover {
     color:black !important;
@@ -30,8 +33,22 @@ body{
     margin-top: 0;
 }
 .footer{
-       background-color: #6de6e6 !important;
+       background-color: #54a9a9 !important;
 }
 .footer .icons{
     font-size: 23px ;
+    color:white !important;
+}
+.footer li a{
+    color:white !important;
+}
+.footer h4{
+    color:white !important;
+}
+.footer .copyright{
+    background-color: rgba(197, 192, 192, 0.2);
+    color:white !important;
+}
+.footer .copyright a{
+    color:white !important;
 }
