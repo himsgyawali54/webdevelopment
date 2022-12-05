@@ -40,7 +40,7 @@
             <ul class="navbar-nav ms-auto nav-fill w-50">
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle active"
+                  class="nav-link"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -91,10 +91,8 @@
         <div class="container">
           <div class="row py-5 justify-content-around">
             <div class="col-sm-12 col-lg-6">
-              <h1>
-                Want to realize your <span>startup ambitions?</span>
-              </h1>
-              <h2 >
+              <h1>Want to realize your <span>startup ambitions?</span></h1>
+              <h2 class="text-left autotype">
                 Our team of experts is prepared<br />
                 to aid you
               </h2>
@@ -120,10 +118,7 @@
             </div>
             <div class="col-12 col-lg-5">
               <video height="100%" width="100%" autoplay loop muted>
-                <source
-                  src="images/codingvideo.mp4"
-                  type="video/mp4"
-                />
+                <source src="images/codingvideo.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -660,6 +655,13 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <script src="java.js"></script>
+    <script src="path/to/AutoTyping.min.js"></script>
+    <script>
+      const myText = new AutoTyping({
+        id: "autotype", //Your HTML element id (string) - REQUIRED
+        typeText: ["welcome guys"], //Your text (array with strings)
+      }).init();
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

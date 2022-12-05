@@ -9,11 +9,10 @@
 
 
 #landpage h1 {
-    font-size: 60px;
+    padding: 10px;
 }
-
 #landpage h2 {
-    text-align: center;
+    padding: 5px;
 }
 
 #landpage h3 {
