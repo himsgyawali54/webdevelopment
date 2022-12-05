@@ -16,11 +16,13 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="css/about.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet"/>
   </head>
 
   <body>
     <!-- navbar start-->
-    <header id="header" class="header fixed-top" data-scrollto-offset="0">
+     <!-- <header id="header" class="header fixed-top" data-scrollto-offset="0">  -->
+       <div class="fixed-top"> 
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Web development</a>
@@ -51,7 +53,7 @@
                   <li><a class="dropdown-item" href="#">About Us</a></li>
                   <li><a class="dropdown-item" href="#">Our vision</a></li>
                   <li>
-                    <a class="dropdown-item" href="#"> Our Mission</a>
+                    <a class="dropdown-item" href="ourmission.html"> Our Mission</a>
                   </li>
                 </ul>
               </li>
@@ -60,7 +62,7 @@
                 <a class="nav-link" href="#">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Teams</a>
+                <a class="nav-link" href="teams.html">Teams</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Blogs</a>
@@ -75,19 +77,20 @@
           </div>
         </div>
       </nav>
-    </header>
+    </div>
 
     <!-- aboutus -->
+    <main id="about-dev-company">
     <section id="about">
       <div class="container">
         <div class="row">
           <div
-            class="col-sm-6 col-lg-6 py-4 d-flex flex-column justify-content-center align-item-center"
+            class="col-12 col-lg-6 py-4 d-flex flex-column justify-content-center "
           >
             <h4>About Us</h4>
             <h1>
               Inspiring Business
-              <span class="aboutcompany">With IT Solutions</span>
+              <span >With IT Solutions</span>
             </h1>
             <p>
               Abc web development company is a revenue-based project company
@@ -105,10 +108,10 @@
             </p>
           </div>
           <div
-            class="col-sm-6 col-lg-6 py-4 d-flex justify-content-center align-item-center"
+            class="col-12 col-lg-6 py-4 d-flex justify-content-center align-items-center"
           >
             <img
-              src="images/aboutus.png"
+              src="images/Team spirit-amico.svg"
               alt="informationabout us"
               width="330px"
               height="60px"
@@ -124,9 +127,9 @@
       <div class="container">
         <div class="row py-2">
           <div
-            class="col-sm-12 col-lg-12 d-flex flex-column justify-content-center align-items-center choosecompany"
+            class="col-12 col-lg-12 d-flex flex-column justify-content-center align-items-center choosecompany"
           >
-            <h2>Why Choose Us</h2>
+            <h2>Why <span>Choose Us</span></h2>
             <p>
               Our IT services consist of business and technology experts who<br />
               help to manage business processes of all categories.
@@ -191,17 +194,15 @@
       <div class="container">
         <div class="row">
           <div
-            class="col-6 col-lg-6 d-md-flex gap-4 justify-content-sm-start justify-content-lg-end"
+            class="col-12 col-lg-6 d-flex gap-3  justify-content-lg-end"
           >
             <h2 class="text-end testimonial-title">
               What Our Trustworthy <br />
-
-              <span class="testimonial-title-client"> Clients Say</span>
+              <span> Clients Say</span>
             </h2>
-            <div class="vr"></div>
           </div>
-          <div class="col-6 col-lg-4 clientsopinion">
-            <p class="text-left">
+          <div class="col-12 col-lg-4 clientsopinion">
+            <p >
               Abc web development company is a B2B (Business To Business)
               company that hopes for a better client relationship by ensuring
               long-term benefits and quality service.
@@ -209,7 +210,7 @@
           </div>
         </div>
         <div class="row py-4">
-          <div class="col-sm-12 col-lg-12">
+          <div class="col-12 col-lg-12">
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -224,7 +225,7 @@
                         designing.
                       </p>
                       <div class="d-flex gap-4">
-                        <img src="images/trustworthy.png" class="img-fluid" />
+                        <img src="images/trustworthy1.jpg" class="img-fluid" />
                         <div class="trustworthy-people">
                           <h5 class="mt-2">Binod Sharma</h5>
                           <p class="position">
@@ -249,7 +250,7 @@
                       </p>
                       <div class="d-flex gap-4">
                         <img
-                          src="images/trustworthy.png"
+                          src="images/trustworthy2.jpg"
                           class="img-fluid"
                           
                         />
@@ -277,7 +278,7 @@
                       </p>
                       <div class="d-flex gap-4">
                         <img
-                          src="images/trustworthy.png"
+                          src="images/trustworthy3.jpg"
                           class="img-fluid"
                          
                         />
@@ -304,7 +305,7 @@
                       </p>
                       <div class="d-flex gap-4">
                         <img
-                          src="images/trustworthy.png"
+                          src="images/trustworthycolor.png"
                           class="img-fluid"
                          
                         />
@@ -324,6 +325,64 @@
         </div>
       </div>
     </section>
+    <!-- whatsup -->
+    <button
+      type="button"
+      class="fixed-whatsapp"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+      data-bs-whatever="@mdo"
+    >
+      <i class="bi bi-whatsapp"></i>
+    </button>
+
+    <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+    style="display: none"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Title</label>
+              <input type="text" class="form-control" id="recipient-name" />
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label"
+                >Message:</label
+              >
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
     <!-- footer -->
     <footer class="bg-light text-center text-lg-start footer">
@@ -335,27 +394,27 @@
             <div class="pt-2">
               <ul class="list-unstyled mb-0 d-md-flex gap-4">
                 <li>
-                  <a href="index.html" class="text-dark"> Home</a>
+                  <a href="index.html" > Home</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Aboutus</a>
-                </li>
-
-                <li>
-                  <a href="#!" class="text-dark">Websitedesign</a>
+                  <a href="#!" >Aboutus</a>
                 </li>
 
                 <li>
-                  <a href="#!" class="text-dark">App development</a>
+                  <a href="#!" >Websitedesign</a>
+                </li>
+
+                <li>
+                  <a href="#!" >App development</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Content writing</a>
+                  <a href="#!" >Content writing</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">SEO</a>
+                  <a href="#!" >SEO</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Contactus</a>
+                  <a href="#!" >Contactus</a>
                 </li>
               </ul>
               <h4 class="text-center pt-4">GET CONNECTED WITH US</h4>
@@ -374,11 +433,12 @@
         
       >
         © 2020 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/"
+        <a  href="https://mdbootstrap.com/"
           >Webdevelopment.com</a
         >
       </div>
     </footer>
+  </main>
 
     <script src="/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

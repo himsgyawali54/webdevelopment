@@ -7,7 +7,7 @@ body{
 /* navbar start*/
 .navbar-expand-lg{
     font-weight: bold;
-     background-color: #0A9696 !important;
+     background-color: #fff;
 }
 .navbar .navbar-brand{
     margin-left: 70px;
@@ -17,11 +17,12 @@ body{
     margin-right: 70px !important;
 }
 .navbar a{
-    color:white !important;
+    color:#000;
+    font-size: 20px;
 }
 
 .nav-item .dropdown-menu{
-    background-color: #0A9696;
+    background-color: rgba(128, 128, 128, 0.205);
 } 
 .navbar-expand-lg .dropdown-menu :hover {
     color:black !important;
@@ -43,7 +44,7 @@ body{
     text-align: justify;  
 }
 
-#about .aboutcompany{
+#about span{
 
     color:#0A9696;
 }
@@ -73,24 +74,34 @@ body{
 #chooseus .card .reasontochoose{
     
     margin-left: 25px; 
-    color: skyblue;
+    color: #96ad46;
     font-size: 35px;
     padding: 18px;
 
 }
 
 /* whatclentssay */
-#testimonials .vr{
-    border: 1.5px solid rgb(80, 78, 78);
-    height:90px;
-    top: 30px;
+
+#testimonials h2{
+    position: relative;
+    display: block;
+    
 }
+#testimonials h2::after{
+    content:"";
+    position: absolute;
+    border: .8px solid #0c0c0c;
+    top:0px;
+    left: 358px; 
+    height: 65px; 
+    
+       
+}
+
 .testimonial-title{
     padding-right: 20px;
 }
-.testimonial-title-client{
-    color:#0A9696;
-}
+
 #testimonials .clientsopinion p{
     font-size: 18px;
     text-align: justify;
@@ -123,29 +134,164 @@ body{
      font-weight: 600;
   
 }
-section{
+#about-dev-company section{
     margin-top: 80px;
 }
 /* footer */
 .footer{
 
-    background-color: #0A9696 !important;
+    background-color: #fff;
 
 }
 .footer .icons{
     font-size: 23px ;
-    color: white ;
+    color: #000 ;
 }
 .footer li a{
-    color:white ;
+    color:#000 ;
 }
 .footer h4{
-    color:white;
+    color:#000;
 }
 .footer .copyright{
     background-color: rgba(197, 192, 192, 0.2);
-    color:white ;
+    color:#000 ;
 }
 .footer .copyright a{
-    color:white ;
+    color:#000 ;
 }
+
+/* OUR MISSION STARED */
+#ourmission span{
+    color:#0A9696;
+}
+#ourmission h6{
+    color: grey;
+    font-weight: 600;
+    position: relative;
+    
+    
+}
+#ourmission h6::after{
+    content:"";
+    position: absolute;
+    border: .8px solid #0A9696;
+    width:70px;
+    top:10px;
+    left:70px;  
+
+}
+#ourmission h2{
+    font-weight: bolder;
+    
+}
+#ourmission p{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 15px;
+    align-items: center;
+}
+#ourmission section{
+    margin-top: 80px;
+}
+ /* OUR TEAMS*/
+ #ourteams .about-teams h1{
+    text-align: center;
+
+ }
+
+ #ourteams .about-teams p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0 ;
+ }
+ #ourteams .about-teams span{
+    color: #0A9696;
+ }
+ 
+ #ourteams .about-teams .card h5{
+    color:#0A9696;
+    font-weight: bold;
+ }
+ #ourteams .about-teams .card h6{
+    position: relative;
+ }
+ #ourteams .about-teams .card h6::after{
+    content:"";
+    position: absolute;
+    border: .8px solid #0a96962e;
+    width:60px;
+    top:35px;
+    left:1px;
+ }
+ #ourteams .about-teams .card p{
+    font-size: 15px;
+    padding-top: 20px;
+    text-align:left;
+ }
+ #ourteams .about-teams .card .icons{
+    color: #0A9696;
+ }
+ 
+ #ourteams .about-teams .card img{
+    border-radius: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 150px;
+    width:150px;
+    
+    
+  }
+ #ourteams section{
+    margin-top: 80px;
+ }  
+ /* our skills of teams*/
+
+#ourteams .ourskills h2{
+    text-align: center;
+ }
+ #ourteams .ourskills p{
+    text-align: center;
+    font-size: 18px;
+ }
+ #ourteams .ourskills span{
+    color: #0A9696;
+ }
+#ourteams .ourskills .progress{ 
+    margin-top:8px;
+    height: 10px;  
+
+}
+#ourteams .ourskills label{ 
+    margin-top:25px;  
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    color:#7D0800;
+
+}
+#ourteams .ourskills label span{
+    color: #7D0800;
+    font-size: 14px;
+    font-weight: 600;
+}
+#ourteams .ourskills .progress-bar{
+    background-color:#0A9696;
+}
+#ourteams .our-clients{
+    background-color: #0a969608;
+}
+ #ourteams .our-clients h5{
+    color:grey;
+    font-weight: 600;
+} 
+#ourteams .our-clients span{
+    font-weight: bold;
+    /* color:rgba(0, 0, 0, 0.764); */
+    color: #0A9696;
+    
+}
+#ourteams .our-clients .single{
+    text-align: center;
+}
+

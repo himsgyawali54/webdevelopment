@@ -21,6 +21,7 @@
   </head>
   <body>
     <div class="fixed-top">
+      <!-- <header id="header" class="header fixed-top" data-scrollto-offset="0">  -->
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Web development</a>
@@ -51,9 +52,15 @@
                   <li>
                     <a class="dropdown-item" href="aboutus.html">About Us</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Our vision</a></li>
                   <li>
-                    <a class="dropdown-item" href="#"> Our Mission</a>
+                    <a class="dropdown-item" href="ourvision.html"
+                      >Our vision</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="ourmission.html">
+                      Our Mission</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -61,7 +68,7 @@
                 <a class="nav-link" href="#">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Teams</a>
+                <a class="nav-link" href="teams.html">Teams</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Blogs</a>
@@ -79,523 +86,537 @@
     </div>
 
     <!-- SECTION START -->
-
-    <section id="hero">
-      <div class="container">
-        <div class="row py-5 justify-content-around">
-          <div class="col-sm-12 col-lg-6">
-            <h1>
-              Talk with
-              <span
-                >developer<br />
-                Team </span
-              ><br />
-              on your website
-            </h1>
-            <p>
+    <main id="landpage">
+      <section id="hero">
+        <div class="container">
+          <div class="row py-5 justify-content-around">
+            <div class="col-sm-12 col-lg-6">
+              <h1>
+                Want to realize your <span>startup ambitions?</span>
+              </h1>
+              <h2 >
+                Our team of experts is prepared<br />
+                to aid you
+              </h2>
+              <!-- <p style="font-size:18px;">
+                We develop websites that enable you to grow, outperform<br> and
+                outshine in the digital world.
+              </p> -->
+              <!-- <p>
               chat, email & social messaging for website<br />
               development
-            </p>
+            </p> -->
 
-            <div class="input-group d-flex">
-              <form class="d-flex gap-3">
-                <input
-                  class="form-control"
-                  placeholder="Your email address"
-                  aria-label="Recipient's username"
+              <div class="input-group d-flex">
+                <form class="d-flex gap-3">
+                  <input
+                    class="form-control"
+                    placeholder="Your email address"
+                    aria-label="Recipient's username"
+                  />
+                  <button class="btn" type="button" name="btn">Submit</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5">
+              <video height="100%" width="100%" autoplay loop muted>
+                <source
+                  src="images/codingvideo.mp4"
+                  type="video/mp4"
                 />
-                <button class="btn" type="button" name="btn">Submit</button>
-              </form>
+              </video>
             </div>
           </div>
-          <div class="col-12 col-lg-5">
-            <video height="100%" width="100%" autoplay loop muted>
-              <source
-                src="Blue Illustrative Character Onboarding Video.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- END HERO SECTION -->
+      <!-- END HERO SECTION -->
 
-    <section id="main">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-lg-12">
-            <h3 class="mt-3">Trusted by 4500+ company</h3>
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div>
-                    <img
-                      src="img/lepetit-lunetier@2x.png"
-                      class="img-fluid"
-                      alt=""
-                    />
+      <section id="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-lg-12">
+              <h3 class="mt-3">Trusted by 4500+ company</h3>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div>
+                      <img
+                        src="img/lepetit-lunetier@2x.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div>
 
-                <div class="swiper-slide">
-                  <div>
-                    <img src="img/you-gr@2x.png" class="img-fluid" alt="" />
+                  <div class="swiper-slide">
+                    <div>
+                      <img src="img/you-gr@2x.png" class="img-fluid" alt="" />
+                    </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div>
-                    <img
-                      src="img/high-speed-training@2x.png"
-                      class="img-fluid"
-                      alt=""
-                    />
+                  <div class="swiper-slide">
+                    <div>
+                      <img
+                        src="img/high-speed-training@2x.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div>
-                    <img
-                      src="img/saved-by-the-dress@2x.png"
-                      class="img-fluid"
-                      alt=""
-                    />
+                  <div class="swiper-slide">
+                    <div>
+                      <img
+                        src="img/saved-by-the-dress@2x.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div>
-                    <img
-                      src="img/nudie-jeans@2x.png"
-                      class="img-fluid"
-                      alt=""
-                    />
+                  <div class="swiper-slide">
+                    <div>
+                      <img
+                        src="img/nudie-jeans@2x.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div>
-                    <img src="img/tinybeans@2x.png" class="img-fluid" alt="" />
+                  <div class="swiper-slide">
+                    <div>
+                      <img
+                        src="img/tinybeans@2x.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div>
-                    <img src="img/igms@2x.png" class="img-fluid" alt="" />
+                  <div class="swiper-slide">
+                    <div>
+                      <img src="img/igms@2x.png" class="img-fluid" alt="" />
+                    </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div>
-                    <img src="img/twothirds@2x.png" class="img-fluid" alt="" />
+                  <div class="swiper-slide">
+                    <div>
+                      <img
+                        src="img/twothirds@2x.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div>
-                    <img
-                      src="img/empowering-parents@2x.png"
-                      class="img-fluid"
-                      alt=""
-                    />
+                  <div class="swiper-slide">
+                    <div>
+                      <img
+                        src="img/empowering-parents@2x.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div>
-                    <img src="img/you-gr@2x.png" class="img-fluid" alt="" />
+                  <div class="swiper-slide">
+                    <div>
+                      <img src="img/you-gr@2x.png" class="img-fluid" alt="" />
+                    </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div>
-                    <img
-                      src="img/lepetit-lunetier@2x.png"
-                      class="img-fluid"
-                      alt=""
-                    />
+                  <div class="swiper-slide">
+                    <div>
+                      <img
+                        src="img/lepetit-lunetier@2x.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- MAIN SECTION END -->
+      <!-- MAIN SECTION END -->
 
-    <section id="banner">
-      <div class="container">
-        <div class="row py-5">
-          <div class="col-sm-12 col-lg-12">
-            <div data-aos="fade-up">
-              <h2>
-                Web-development related Problems Solve & Increase Your Business
-              </h2>
-              <p>
-                Join Our group chat to your website and talk with your
-                website<br />
-                visitors in real-time, or use the Whatsapp and reply to messages
-                at your own pace.
-              </p>
-            </div>
-            <img
-              class="center"
-              src="img/app-n-chat.jpg"
-              height="350px"
-              width="600px"
-              class="img-fluid"
-              alt="chat"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END BANNER PAGE -->
-
-    <section id="mainpage">
-      <div class="container">
-        <div class="row py-5 justify-content-around">
-          <div class="col-sm-12 col-lg-5">
-            <video height="100%" width="100%" autoplay loop muted>
-              <source
-                src="Blue Illustrative Character Onboarding Video.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
-
-          <div class="col-sm-12 col-lg-5">
-            <h4>Communicate over Email, Instagram and Facebook</h4>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              necessitatibus delectus dolorum dignissimos odio asperiores
-              obcaecati quibusdam cupiditate placeat illo, consequatur minus.
-              Voluptate ad excepturi distinctio ipsum officia exercitationem
-              atque.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-              iure adipisci. Aut vero, sequi mollitia obcaecati ratione modi
-              quia corrupti minima doloremque exercitationem quod nostrum at
-              aspernatur, eius provident perspiciatis.
-            </p>
-          </div>
-
-          <p>&nbsp;</p>
-          <div class="col-sm-12 col-lg-5">
-            <h4>Communicate over Email, Instagram and Facebook</h4>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              necessitatibus delectus dolorum dignissimos odio asperiores
-              obcaecati quibusdam cupiditate placeat illo, consequatur minus.
-              Voluptate ad excepturi distinctio ipsum officia exercitationem
-              atque.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-              nostrum animi ipsa aspernatur corrupti vel voluptas voluptates
-              optio nulla culpa, perferendis, accusantium nam quibusdam
-              repellendus explicabo. Quae, reprehenderit modi! Harum.
-            </p>
-          </div>
-
-          <div class="col-sm-12 col-lg-5">
-            <video height="100%" width="100%" autoplay loop muted>
-              <source
-                src="Blue Illustrative Character Onboarding Video.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- END MAINPAGE -->
-
-    <section id="main-page2">
-      <div class="container">
-        <div class="row py-5 justify-content-around">
-          <div class="col-sm-12 col-lg-8">
-            <h3>Communicate over Email, Instagram and Facebook</h3>
-            <p class="text-center">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              necessitatibus delectus dolorum dignissimos odio asperiores
-              obcaecati quibusdam cupiditate placeat illo, consequatur minus.
-              Voluptate ad excepturi distinctio ipsum officia exercitationem
-              atque.
-            </p>
-          </div>
-
-          <div class="col-sm-12 col-lg-5">
-            <video height="100%" width="100%" autoplay loop muted>
-              <source
-                src="Blue Illustrative Character Onboarding Video.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
-
-          <div class="col-sm-12 col-lg-5">
-            <video height="100%" width="100%" autoplay loop muted>
-              <source
-                src="Blue Illustrative Character Onboarding Video.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
-          <!-- </div> -->
-        </div>
-      </div>
-    </section>
-
-    <!-- END SECTION -->
-
-    <section id="main-page3">
-      <div class="container">
-        <div class="row py-5">
-          <div class="col-sm-12 col-lg-6 gap-4">
-            <div data-aos="fade-up">
-              <h3>We’ve got you covered</h3>
-              <p>
-                We’re here to help you with any questions about Website, its
-                features and how you can use it to grow your business.
-              </p>
-            </div>
-            <div class="text-center">
+      <section id="banner">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-sm-12 col-lg-12">
+              <div data-aos="fade-up">
+                <h2>
+                  Web-development related Problems Solve & Increase Your
+                  Business
+                </h2>
+                <p>
+                  Join Our group chat to your website and talk with your
+                  website<br />
+                  visitors in real-time, or use the Whatsapp and reply to
+                  messages at your own pace.
+                </p>
+              </div>
               <img
-                src="img/Discussion-amico.svg"
+                class="center"
+                src="img/app-n-chat.jpg"
                 height="350px"
-                width="550px"
+                width="600px"
                 class="img-fluid"
-                alt=""
+                alt="chat"
               />
             </div>
           </div>
-          <div class="col-sm-12 col-lg-6">
-            <div data-aos="fade-up">
-              <h3>Amazing Developer Team</h3>
+        </div>
+      </section>
+      <!-- END BANNER PAGE -->
+
+      <section id="mainpage">
+        <div class="container">
+          <div class="row py-5 justify-content-around">
+            <div class="col-sm-12 col-lg-5">
+              <video height="100%" width="100%" autoplay loop muted>
+                <source
+                  src="Blue Illustrative Character Onboarding Video.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+
+            <div class="col-sm-12 col-lg-5">
+              <h4>Communicate over Email, Instagram and Facebook</h4>
               <p>
-                Chatra is brought to you by a passionate team of engineers,
-                customer support professionals, and experts, who understand the
-                importance of great service.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                necessitatibus delectus dolorum dignissimos odio asperiores
+                obcaecati quibusdam cupiditate placeat illo, consequatur minus.
+                Voluptate ad excepturi distinctio ipsum officia exercitationem
+                atque.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat, iure adipisci. Aut vero, sequi mollitia obcaecati
+                ratione modi quia corrupti minima doloremque exercitationem quod
+                nostrum at aspernatur, eius provident perspiciatis.
               </p>
             </div>
-            <div class="d-flex gap-3">
-              <button class="btn" type="button" name="btn">Chat Us</button>
-              <form>
-                <input
-                  class="form-control"
-                  type="text"
-                  id="fname"
-                  placeholder="Enter Your Full Name"
+
+            <p>&nbsp;</p>
+            <div class="col-sm-12 col-lg-5">
+              <h4>Communicate over Email, Instagram and Facebook</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                necessitatibus delectus dolorum dignissimos odio asperiores
+                obcaecati quibusdam cupiditate placeat illo, consequatur minus.
+                Voluptate ad excepturi distinctio ipsum officia exercitationem
+                atque.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                nostrum animi ipsa aspernatur corrupti vel voluptas voluptates
+                optio nulla culpa, perferendis, accusantium nam quibusdam
+                repellendus explicabo. Quae, reprehenderit modi! Harum.
+              </p>
+            </div>
+
+            <div class="col-sm-12 col-lg-5">
+              <video height="100%" width="100%" autoplay loop muted>
+                <source
+                  src="Blue Illustrative Character Onboarding Video.mp4"
+                  type="video/mp4"
                 />
-              </form>
+              </video>
             </div>
-            <h3 class="text-start mt-5">Books and guides</h3>
-            <p>
-              Learn the tips and tricks on how to make your customers happy,
-              backed by research and our personal experience. We’ve published
-              over 10 books and ultimate guides!
-            </p>
-            <div class="d-flex gap-3">
-              <button class="btn" type="button" name="btn">Chat Us</button>
-              <form>
-                <input
-                  class="form-control"
-                  type="text"
-                  id="fname"
-                  placeholder="Enter Your Full Name"
+          </div>
+        </div>
+      </section>
+
+      <!-- END MAINPAGE -->
+
+      <section id="main-page2">
+        <div class="container">
+          <div class="row py-5 justify-content-around">
+            <div class="col-sm-12 col-lg-8">
+              <h3>Communicate over Email, Instagram and Facebook</h3>
+              <p class="text-center">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                necessitatibus delectus dolorum dignissimos odio asperiores
+                obcaecati quibusdam cupiditate placeat illo, consequatur minus.
+                Voluptate ad excepturi distinctio ipsum officia exercitationem
+                atque.
+              </p>
+            </div>
+
+            <div class="col-sm-12 col-lg-5">
+              <video height="100%" width="100%" autoplay loop muted>
+                <source
+                  src="Blue Illustrative Character Onboarding Video.mp4"
+                  type="video/mp4"
                 />
-              </form>
+              </video>
             </div>
+
+            <div class="col-sm-12 col-lg-5">
+              <video height="100%" width="100%" autoplay loop muted>
+                <source
+                  src="Blue Illustrative Character Onboarding Video.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <!-- </div> -->
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- END SECTION -->
+      <!-- END SECTION -->
 
-    <section id="top-footer">
-      <div class="container">
-        <div data-aos="fade-up">
-          <!-- <h2 class="text-center">OUR SERVICE</h2> -->
+      <section id="main-page3">
+        <div class="container">
           <div class="row py-5">
-            <div class="col-sm-12 col-lg-3">
-              <img
-                height="250px"
-                width="550px"
-                src="img/customer.svg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col-sm-12 col-lg-3">
-              <h5><strong>Our Customer</strong></h5>
-              <p class="justify-content-center">
-                Don’t miss a conversation when you are away from your desk.
-                Chatra mobile apps allow you to communicate on the go.
-              </p>
-            </div>
-            <div class="col-sm-12 col-lg-3">
-              <img
-                height="250px"
-                width="550px"
-                src="img/Programming-pana.svg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col-sm-12 col-lg-3">
-              <h5><strong>Development Team</strong></h5>
-              <p class="justify-content-center">
-                Don’t miss a conversation when you are away from your desk.
-                Chatra mobile apps allow you to communicate on the go.
-              </p>
-            </div>
-          </div>
-          <div class="row py-5">
-            <div class="col-sm-12 col-lg-3">
-              <img
-                height="250px"
-                width="550px"
-                src="img/Discussion-cuate.svg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col-sm-12 col-lg-3">
-              <h5><strong>Our Customer</strong></h5>
-              <p class="justify-content-center">
-                Don’t miss a conversation when you are away from your desk.
-                Chatra mobile apps allow you to communicate on the go.
-              </p>
-            </div>
-            <div class="col-sm-12 col-lg-3">
-              <img
-                height="250px"
-                width="550px"
-                src="img/Open source-bro.svg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col-sm-12 col-lg-3">
-              <h5><strong>Our Customer</strong></h5>
-              <p class="justify-content-center">
-                Don’t miss a conversation when you are away from your desk.
-                Chatra mobile apps allow you to communicate on the go.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <button
-      type="button"
-      class="fixed-whatsapp"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModal"
-      data-bs-whatever="@mdo"
-    >
-      <i class="bi bi-whatsapp"></i>
-    </button>
-
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-      style="display: none"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="recipient-name" class="col-form-label">Title</label>
-                <input type="text" class="form-control" id="recipient-name" />
+            <div class="col-sm-12 col-lg-6 gap-4">
+              <div data-aos="fade-up">
+                <h3>We’ve got you covered</h3>
+                <p>
+                  We’re here to help you with any questions about Website, its
+                  features and how you can use it to grow your business.
+                </p>
               </div>
-              <div class="mb-3">
-                <label for="message-text" class="col-form-label"
-                  >Message:</label
-                >
-                <textarea class="form-control" id="message-text"></textarea>
+              <div class="text-center">
+                <img
+                  src="img/Discussion-amico.svg"
+                  height="350px"
+                  width="550px"
+                  class="img-fluid"
+                  alt=""
+                />
               </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Send message</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer section -->
-
-    <footer class="text-center text-lg-start footer">
-      <div class="container p-4">
-        <div class="row">
-          <div
-            class="col-12 col-lg-12 mb-md-0 d-flex justify-content-center align-item-center"
-          >
-            <div>
-              <ul class="list-unstyled mb-0 d-md-flex gap-4">
-                <li>
-                  <a href="index.html" > Home</a>
-                </li>
-                <li>
-                  <a href="#!" >Aboutus</a>
-                </li>
-
-                <li>
-                  <a href="#!" >Websitedesign</a>
-                </li>
-
-                <li>
-                  <a href="#!" >App development</a>
-                </li>
-                <li>
-                  <a href="#!" >Content writing</a>
-                </li>
-                <li>
-                  <a href="#!" >SEO</a>
-                </li>
-              </ul>
-              <h4 class="text-center pt-4">GET CONNECTED WITH US</h4>
-              <div class="d-flex gap-3 justify-content-center icons">
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-linkedin"></i>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <div data-aos="fade-up">
+                <h3>Amazing Developer Team</h3>
+                <p>
+                  Chatra is brought to you by a passionate team of engineers,
+                  customer support professionals, and experts, who understand
+                  the importance of great service.
+                </p>
+              </div>
+              <div class="d-flex gap-3">
+                <button class="btn" type="button" name="btn">Chat Us</button>
+                <form>
+                  <input
+                    class="form-control"
+                    type="text"
+                    id="fname"
+                    placeholder="Enter Your Full Name"
+                  />
+                </form>
+              </div>
+              <h3 class="text-start mt-5">Books and guides</h3>
+              <p>
+                Learn the tips and tricks on how to make your customers happy,
+                backed by research and our personal experience. We’ve published
+                over 10 books and ultimate guides!
+              </p>
+              <div class="d-flex gap-3">
+                <button class="btn" type="button" name="btn">Chat Us</button>
+                <form>
+                  <input
+                    class="form-control"
+                    type="text"
+                    id="fname"
+                    placeholder="Enter Your Full Name"
+                  />
+                </form>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <!-- END SECTION -->
+
+      <section id="top-footer">
+        <div class="container">
+          <div data-aos="fade-up">
+            <!-- <h2 class="text-center">OUR SERVICE</h2> -->
+            <div class="row py-5">
+              <div class="col-sm-12 col-lg-3">
+                <img
+                  height="250px"
+                  width="550px"
+                  src="img/customer.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                <h5><strong>Our Customer</strong></h5>
+                <p class="justify-content-center">
+                  Don’t miss a conversation when you are away from your desk.
+                  Chatra mobile apps allow you to communicate on the go.
+                </p>
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                <img
+                  height="250px"
+                  width="550px"
+                  src="img/Programming-pana.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                <h5><strong>Development Team</strong></h5>
+                <p class="justify-content-center">
+                  Don’t miss a conversation when you are away from your desk.
+                  Chatra mobile apps allow you to communicate on the go.
+                </p>
+              </div>
+            </div>
+            <div class="row py-5">
+              <div class="col-sm-12 col-lg-3">
+                <img
+                  height="250px"
+                  width="550px"
+                  src="img/Discussion-cuate.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                <h5><strong>Our Customer</strong></h5>
+                <p class="justify-content-center">
+                  Don’t miss a conversation when you are away from your desk.
+                  Chatra mobile apps allow you to communicate on the go.
+                </p>
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                <img
+                  height="250px"
+                  width="550px"
+                  src="img/Open source-bro.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                <h5><strong>Our Customer</strong></h5>
+                <p class="justify-content-center">
+                  Don’t miss a conversation when you are away from your desk.
+                  Chatra mobile apps allow you to communicate on the go.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <button
+        type="button"
+        class="fixed-whatsapp"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        data-bs-whatever="@mdo"
+      >
+        <i class="bi bi-whatsapp"></i>
+      </button>
 
       <div
-        class="text-center p-3 copyright"
-        
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        style="display: none"
       >
-        © 2020 Copyright:
-        <a  href="https://mdbootstrap.com/"
-          >Webdevelopment.com</a
-        >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                New message
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label"
+                    >Title</label
+                  >
+                  <input type="text" class="form-control" id="recipient-name" />
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label"
+                    >Message:</label
+                  >
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Send message
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+
+      <!-- Footer section -->
+
+      <footer class="text-center text-lg-start footer">
+        <div class="container p-4">
+          <div class="row">
+            <div
+              class="col-12 col-lg-12 mb-md-0 d-flex justify-content-center align-item-center"
+            >
+              <div>
+                <ul class="list-unstyled mb-0 d-md-flex gap-4">
+                  <li>
+                    <a href="index.html"> Home</a>
+                  </li>
+                  <li>
+                    <a href="#!">Aboutus</a>
+                  </li>
+
+                  <li>
+                    <a href="#!">Websitedesign</a>
+                  </li>
+
+                  <li>
+                    <a href="#!">App development</a>
+                  </li>
+                  <li>
+                    <a href="#!">Content writing</a>
+                  </li>
+                  <li>
+                    <a href="#!">SEO</a>
+                  </li>
+                </ul>
+                <h4 class="text-center pt-4">GET CONNECTED WITH US</h4>
+                <div class="d-flex gap-3 justify-content-center icons">
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center p-3 copyright">
+          © 2020 Copyright:
+          <a href="https://mdbootstrap.com/">Webdevelopment.com</a>
+        </div>
+      </footer>
+    </main>
 
     <!-- END -->
 
